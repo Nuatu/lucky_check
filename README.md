@@ -7,7 +7,7 @@ Ruby app that takes a string of numbers and returns the "luck", as determined by
 
 #####ACCEPTS:
 
-* a string of numbers, which can be of any length as long as the lenght is even
+* a string of numbers, which can be of any length as long as the length is even
 
 * __ie:__ _string of 4 numbers, string of 6 numbers, string of 8 numbers, etc.._
 
@@ -15,3 +15,4 @@ Ruby app that takes a string of numbers and returns the "luck", as determined by
 
 * __true__ if the left __IS__ equal to right 
 * __false__ if the left is __NOT__ equal to the right
+* __invalid__ if the length of the input string is __NOT__ even
