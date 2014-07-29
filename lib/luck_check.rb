@@ -1,18 +1,23 @@
 def luck_check (input)
 	numbers = input.split('')
-	halfway_point = numbers.length / 2
+	halfway_point = (numbers.length / 2)
 	#splits the input into an array
 
 	left = sum_calc(numbers[0,halfway_point])
 	right = sum_calc(numbers[halfway_point..-1])
 	#passes left/right halves of array to 'sum_calc' function below
 
-	luck_checker(left, right)
+	luck_checker(numbers, left, right)
 	#passes left and right to 'luck_checker' function below
 end
 
-def luck_checker (left, right)
-	left == right ? true : false 
+def luck_checker (numbers, left, right)
+	if numbers.length.even?
+		left == right ? true : false 
+	else
+		"input string is invalid, odd number of characters"
+	end
+	#checks to see if numbers has even elements, and returns true, false, or invalid
 end
 
 def sum_calc (input)
@@ -20,3 +25,5 @@ def sum_calc (input)
 	input.each do |x| sum += x.to_i end
 	sum
 end
+
+p luck_check("11")
