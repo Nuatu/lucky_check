@@ -9,7 +9,7 @@ Ruby app that takes a string of numbers and returns the "luck", as determined by
 
 * a string of numbers, which can be of any length as long as the lenght is even
 
-__ie__ _string of 4 numbers, string of 6 numbers, string of 8 numbers, etc.._
+*__ie:__ _string of 4 numbers, string of 6 numbers, string of 8 numbers, etc.._
 
 #####RETURNS:
 
