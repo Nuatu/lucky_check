@@ -7,11 +7,11 @@ Ruby app that takes a string of numbers and returns the "luck", as determined by
 
 #####ACCEPTS:
 
--a string of numbers, which can be of any length as long as the lenght is even
+* a string of numbers, which can be of any length as long as the lenght is even
 
-ie: string of 4 numbers, string of 6 numbers, string of 8 numbers, etc..
+	* _ie:_ string of 4 numbers, string of 6 numbers, string of 8 numbers, etc..
 
 #####RETURNS:
 
--true if the left half IS equal to right half
--false if the left half is NOT equal to the right half 
+* true if the left half IS equal to right half
+* false if the left half is NOT equal to the right half 
