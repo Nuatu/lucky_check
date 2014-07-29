@@ -16,5 +16,5 @@ def sum_calc (input)
 	input.each do |x|
 		sum += x.to_i
 	end
-	sum
+	p sum
 end
