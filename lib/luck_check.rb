@@ -24,6 +24,5 @@ def sum_calc (input)
 	sum = 0
 	input.each do |x| sum += x.to_i end
 	sum
+	#loops through the input array and sums the elements
 end
-
-p luck_check("11")
