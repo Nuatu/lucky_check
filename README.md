@@ -13,5 +13,5 @@ Ruby app that takes a string of numbers and returns the "luck", as determined by
 
 #####RETURNS:
 
-* true if the left half IS equal to right half
-* false if the left half is NOT equal to the right half 
+* __true__ if the left half __IS__ equal to right half
+* __false__ if the left half is __NOT__ equal to the right half 
