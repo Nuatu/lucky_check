@@ -13,9 +13,9 @@ end
 
 def luck_checker (numbers, left, right)
   if numbers.length.even?
-	  left == right ? true : false 
+    left == right ? true : false 
   else
-	  "input string is invalid, odd number of characters"
+    "input string is invalid, odd number of characters"
   end
   #checks to see if numbers has even elements, and returns true, false, or invalid
 end

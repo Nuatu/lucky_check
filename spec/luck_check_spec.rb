@@ -3,7 +3,7 @@ require 'luck_check'
 
 describe 'luck_check' do
   it "takes a number and returns 'true' if the left half IS equal to the right half" do
-	  expect(luck_check('111012')).to eq(true)
+    expect(luck_check('111012')).to eq(true)
   end
 
   it "takes a number and returns 'false' if the left half is NOT equal to the right half" do
